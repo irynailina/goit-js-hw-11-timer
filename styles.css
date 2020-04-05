@@ -41,4 +41,11 @@ font-family: sans-serif;
     font-size: 16px;
   }
 
+  .subtitle {
+    color: #cc00cc;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 40px 0px 20px;
+  }
+
 
