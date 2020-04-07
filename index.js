@@ -14,9 +14,9 @@ const refs = {
 
 class CountdownTimer {
   constructor({ selector, targetDate, currentDate }) {
-    (this.selector = selector),
-      (this.targetDate = targetDate),
-      (this.currentDate = currentDate);
+    this.selector = selector;
+      this.targetDate = targetDate;
+      this.currentDate = currentDate;
   }
 
   start() {
